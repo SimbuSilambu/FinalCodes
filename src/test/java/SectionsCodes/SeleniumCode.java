@@ -104,6 +104,9 @@ public class SeleniumCode {
 		Robot r = new Robot();
 		r.keyPress(0);
 		r.keyRelease(0);
+		
+		driver.quit();
+		System.out.println("task Complited");
 
 	}
 	
